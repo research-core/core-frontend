@@ -4,8 +4,8 @@ from pyforms.controls import ControlQueryList
 from pyforms.controls import ControlText
 from pyforms.controls import ControlButton
 from pyforms.controls import ControlAutoComplete
-from humanresources.models import Person
-from research.models import Group
+from people.models import Person
+from people.models import Group
 from pyforms.basewidget import no_columns
 
 class SearchWidget(BaseWidget):

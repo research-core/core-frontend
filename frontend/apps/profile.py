@@ -9,11 +9,11 @@ from pyforms.controls import ControlImg
 from pyforms.controls import ControlSimpleLabel
 from pyforms.controls import ControlEmptyWidget
 
-from common.models import InstitutionAffiliation
-from humanresources.models import Person
+from people.models import InstitutionAffiliation
+from people.models import Person
 from humanresources.models import PrivateInfo
 from humanresources.models import AcademicCareer
-from research.models import GroupMember
+from people.models import GroupMember
 
 from ..humanresources_apps.apps.people.profile_privateinfo import ProfilePrivateInfoFormWidget
 
