@@ -1,6 +1,6 @@
 # from .dashboard import DashboardWidget
-from .profile import UserProfileFormWidget
-from .search import SearchWidget
+from people.apps.profile import UserProfileFormWidget
+from people.apps.search import SearchWidget
 from .external_links import WikiLink
 from .external_links import RequisitionsLink
 from .external_links import QlikViewLink
