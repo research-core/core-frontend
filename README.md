@@ -1,29 +1,27 @@
-# README #
+# CORE FRONTEND
 
-This README would normally document whatever steps are necessary to get your application up and running.
+It is a module of the Research CORE ERM and implements the most basic models 
+required by the CORE platform:
 
-### What is this repository for? ###
+- Citizenship
+- City
+- Country
+- Currency
+- Institution
+- Nationality
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Installation
 
-### How do I get set up? ###
+```shell script
+pip install core-common
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+# *Enterprise Resources Management* - Research CORE
 
-### Contribution guidelines ###
+CORE is an ERM platform developed in within a research environment and aims to automatize 
+internal management processes, like human resources, orders, budgets, suppliers, funds, equipment \rooms accesses and maintenance and publications.
 
-* Writing tests
-* Code review
-* Other guidelines
+The project is distributed as an open-source project to facilitate the adaptation of the 
+ERM to each institution's needs.
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+![core printscreen](https://github.com/research-core/core-server/raw/master/docs/static/core.png "Core publications printscreen")
