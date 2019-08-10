@@ -2,3 +2,7 @@
 *.pyc
 
 core_frontend\.egg-info/
+
+build/
+
+dist/
